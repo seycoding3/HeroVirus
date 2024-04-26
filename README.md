@@ -1,2 +1,2 @@
 # HeroVirus
-An virus removes system files
+A virus removes system files
